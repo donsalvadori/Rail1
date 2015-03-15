@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
   def index
-    @movies = ['Birdman', 'Boyhood', 'Whiplash']
+    @movies = %w(Birdman Boyhood Whiplash Timbuktu)
   end
 end
