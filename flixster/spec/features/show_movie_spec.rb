@@ -26,7 +26,7 @@ describe "Viewing an individual movie" do
     
     visit movie_url(movie)
     
-    expect(page).to have_text("Flop")
+    expect(page).to have_text("Flop!")
   end
   
 end
