@@ -20,4 +20,5 @@ describe "Navigating movies" do
 
     expect(current_path).to eq(movie_path(movie))
   end
+
 end
