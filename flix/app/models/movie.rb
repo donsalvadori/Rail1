@@ -14,9 +14,7 @@ RATINGS = %w(G PG PG-13 R NC-17)
 validates :rating, inclusion: { in: RATINGS }
 
 
-
-
-
+has_many :reviews
 
   def self.released
     where("released_on <= ?", Time.now).order("released_on desc")
