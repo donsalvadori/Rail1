@@ -29,7 +29,7 @@ class MoviesController < ApplicationController
     if @movie.save
       redirect_to @movie, notice: "Movie successfully created!"
     else
-      render :new  
+      render :new
     end
   end
   
